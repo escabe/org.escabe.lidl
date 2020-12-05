@@ -1,0 +1,24 @@
+{
+  "id": "org.escabe.lidl",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Lidl ZigBee"
+  },
+  "description": {
+    "en": "Add support for Lidl ZigBee devices."
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Martijn Aben",
+    "email": "martijn.aben@gmail.com"
+  }
+} 

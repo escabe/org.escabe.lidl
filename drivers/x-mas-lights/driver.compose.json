@@ -1,0 +1,23 @@
+{
+  "id": "x-mas-lights",
+  "name": {
+    "en": "X-Mas Lights"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff", "my_mode", "dim"
+  ],
+  "zigbee": {
+    "manufacturerName": "_TZE200_s8gkrkxk",
+    "productId": ["TS0601"],
+    "endpoints": {
+      "1": {
+        "clusters": [6,61184]
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/x-mas-lights/assets/images/large.png",
+    "small": "/drivers/x-mas-lights/assets/images/small.png"
+  }
+}
