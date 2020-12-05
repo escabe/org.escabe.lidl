@@ -64,7 +64,7 @@
       "title": {
         "en": "Mode"
       },
-      "getable": false,
+      "getable": true,
       "setable": true,
       "type": "enum",
       "uiComponent": "picker",
