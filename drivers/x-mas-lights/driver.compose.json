@@ -5,7 +5,7 @@
   },
   "class": "light",
   "capabilities": [
-    "onoff", "my_mode", "dim"
+    "onoff", "lidl_xmas_mode", "dim"
   ],
   "zigbee": {
     "manufacturerName": "_TZE200_s8gkrkxk",

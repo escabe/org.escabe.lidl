@@ -31,7 +31,7 @@
       "class": "light",
       "capabilities": [
         "onoff",
-        "my_mode",
+        "lidl_xmas_mode",
         "dim"
       ],
       "zigbee": {
@@ -55,7 +55,7 @@
     }
   ],
   "capabilities": {
-    "my_mode": {
+    "lidl_xmas_mode": {
       "title": {
         "en": "Mode"
       },

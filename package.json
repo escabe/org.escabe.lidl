@@ -9,5 +9,8 @@
     "homey-meshdriver": "^2.0.2",
     "homey-zigbeedriver": "^1.6.2",
     "zigbee-clusters": "file:../node-zigbee-clusters"
+  },
+  "scripts": {
+    "start": "homey app run"
   }
 }

@@ -1,5 +1,4 @@
 {
-
     "title" : {"en":"Mode"},
     "getable": false,
     "setable": true,
@@ -10,5 +9,4 @@
         {"id": "color", "title":{"en":"color"}},
         {"id": "scene", "title":{"en":"scene"}}
     ]
-
 }
