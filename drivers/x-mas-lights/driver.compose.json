@@ -5,14 +5,15 @@
   },
   "class": "light",
   "capabilities": [
-    "onoff", "lidl_xmas_mode", "dim"
+    "onoff", "lidl_xmas_mode", "dim", "light_hue","light_saturation"
   ],
   "zigbee": {
     "manufacturerName": "_TZE200_s8gkrkxk",
     "productId": ["TS0601"],
     "endpoints": {
       "1": {
-        "clusters": [6,61184]
+        "clusters": [6,61184],
+        "bindings": [61184]
       }
     }
   },

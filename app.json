@@ -32,7 +32,9 @@
       "capabilities": [
         "onoff",
         "lidl_xmas_mode",
-        "dim"
+        "dim",
+        "light_hue",
+        "light_saturation"
       ],
       "zigbee": {
         "manufacturerName": "_TZE200_s8gkrkxk",
@@ -43,6 +45,9 @@
           "1": {
             "clusters": [
               6,
+              61184
+            ],
+            "bindings": [
               61184
             ]
           }
