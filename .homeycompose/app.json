@@ -4,11 +4,11 @@
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Lidl ZigBee"
+    "en": "Lidl ZigBee X-Mas Lights"
   },
   "brandColor": "#0000FF",
   "description": {
-    "en": "Add support for Lidl ZigBee devices."
+    "en": "Adds support for the Lidl X-Mas Lights"
   },
   "category": [
     "lights"
