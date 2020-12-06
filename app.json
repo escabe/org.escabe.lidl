@@ -1,11 +1,11 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "org.escabe.lidl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Lidl ZigBee"
+    "en": "Lidl X-Mas Lights ZigBee"
   },
   "brandColor": "#0000FF",
   "description": {
@@ -229,6 +229,10 @@
             "en": "Hold the F button on the controller for 5 seconds and let go, light should start flashing slowly and pair with Homey."
           }
         }
+      },
+      "images": {
+        "large": "/drivers/x-mas-lights/assets/images/large.png",
+        "small": "/drivers/x-mas-lights/assets/images/small.png"
       }
     }
   ],

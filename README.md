@@ -1,5 +1,5 @@
-# Lidl ZigBee
-Adds support for Lidl ZigBee devices.
+# Lidl X-Mas Lights ZigBee
+Adds support for Lidl X-Mas Lights ZigBee.
 
 ## Disclaimer
 This App is provided "as is", without warranty of any kind. I developed this entirely for own use and according to my
