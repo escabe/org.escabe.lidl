@@ -6,6 +6,7 @@
   "name": {
     "en": "Lidl ZigBee"
   },
+  "brandColor": "#0000FF",
   "description": {
     "en": "Add support for Lidl ZigBee devices."
   },

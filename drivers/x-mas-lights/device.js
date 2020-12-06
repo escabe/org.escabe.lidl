@@ -21,7 +21,7 @@ class MyZigBeeDevice extends ZigBeeDevice {
         // Handler for switching modes
         this.registerCapabilityListener('lidl_xmas_mode', async (mode) => {
             // Actually switch modes
-            const valMap = {white: 0, color: 1, scene: 2};
+            const valMap = {white: 0, color: 1, effect: 2};
             await this.writeEnum(2,valMap[mode]);
             // Then call methods to also set last chosen dim level or color
             switch (mode) {
@@ -68,6 +68,38 @@ class MyZigBeeDevice extends ZigBeeDevice {
     async setWhiteDim({dim}) {
         if (dim===undefined) dim = this.getCapabilityValue('dim');
         return this.writeData32(3,dim*1000);
+    }
+
+    effectMap = {steady: '00',
+        snow: '01',
+        rainbow: '02',
+        snake: '03',
+        twinkle: '04',
+        firework: '08',
+        horizontal_flag: '06',
+        waves: '07',
+        updown: '08',
+        vintage: '09',
+        fading: '0a',
+        collide: '0b',
+        strobe: '0c',
+        sparkles: '0d',
+        carnaval: '0e',
+        glow: '0f'}
+
+    async StartEffect(args) {
+        // Switch to effect mode
+        await this.writeEnum(2,2);
+        let es = this.effectMap[args.effect_name];
+        const speed = String(args.effect_speed);
+        if (speed.length == 1) es += '0';
+        es += speed;
+        for (let i=0;i<20;i++) {
+            const color = args['effect_color_' + i];
+            if (color === '#fff') break;
+            es += color.substr(1).toLowerCase();
+        }
+        return this.writeString(6,es);
     }
 
     //region String Helper Functions

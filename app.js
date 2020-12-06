@@ -9,6 +9,13 @@ class MyApp extends Homey.App {
    */
   async onInit() {
     this.log('MyApp has been initialized');
+
+    this.homey.flow.getActionCard('start_effect').registerRunListener(async (args, state) => {
+      this.log("ACTION TRIGGERED");
+      await args.my_device.StartEffect(args);
+      return true
+    })
+
   }
 }
 
