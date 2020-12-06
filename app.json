@@ -72,19 +72,22 @@
         {
           "id": "white",
           "title": {
-            "en": "white"
+            "en": "White",
+            "nl": "Wit"
           }
         },
         {
           "id": "color",
           "title": {
-            "en": "color"
+            "en": "Color",
+            "nl": "Kleur"
           }
         },
         {
           "id": "scene",
           "title": {
-            "en": "scene"
+            "en": "Scene",
+            "nl": "Scene"
           }
         }
       ]

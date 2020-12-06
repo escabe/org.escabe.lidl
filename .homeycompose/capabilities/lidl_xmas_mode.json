@@ -5,8 +5,8 @@
     "type" : "enum",
     "uiComponent": "picker",
     "values" : [
-        {"id": "white", "title":{"en":"white"}},
-        {"id": "color", "title":{"en":"color"}},
-        {"id": "scene", "title":{"en":"scene"}}
+        {"id": "white", "title":{"en":"White","nl": "Wit"}},
+        {"id": "color", "title":{"en":"Color", "nl":  "Kleur"}},
+        {"id": "scene", "title":{"en":"Scene","nl": "Scene"}}
     ]
 }
