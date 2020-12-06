@@ -229,10 +229,6 @@
             "en": "Hold the F button on the controller for 5 seconds and let go, light should start flashing slowly and pair with Homey."
           }
         }
-      },
-      "images": {
-        "large": "/drivers/x-mas-lights/assets/images/large.png",
-        "small": "/drivers/x-mas-lights/assets/images/small.png"
       }
     }
   ],
