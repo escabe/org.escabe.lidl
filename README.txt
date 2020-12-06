@@ -1,6 +1,6 @@
 Adds support for Lidl ZigBee devices.
 
-This App is provided "as is", without warranty of any kind. I developed this entirely for own use and according to my own requirements. Use it if you find it useful as well. If you run into any bugs you can report them, but I make no claims whatsoever that these will be dealt with in (a timely manner). Similarly, you can submit feature suggestions, but I make guarantees these will be granted or even considered.
+This App is provided "as is", without warranty of any kind. I developed this entirely for own use and according to my own requirements. Use it if you find it useful as well. If you run into any bugs you can report them, but I make no claims whatsoever that these will be dealt with in (a timely manner). Similarly, you can submit feature suggestions, but I give no guarantees these will be granted or even considered.
 
 Requires Homey version 5.
 
