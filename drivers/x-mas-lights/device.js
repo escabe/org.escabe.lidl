@@ -92,6 +92,7 @@ class MyZigBeeDevice extends ZigBeeDevice {
     async StartEffect(args) {
         // Switch to effect mode
         await this.writeEnum(2,2);
+        this.setCapabilityValue('lidl_xmas_mode', 'effect');
         let es = this.effectMap[args.effect_name];
         const speed = String(args.effect_speed);
         if (speed.length == 1) es += '0';
