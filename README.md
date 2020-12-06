@@ -26,7 +26,7 @@ slowly and pairing should complete, the lights should then stop pulsing.
 
 #### Modes
 The X-Mas Lights support 3 modes: `white`, `color` and `effect`. You can switch between these modes in the App. 
-You will mainly use this to switch back to white mode.
+You will mainly use this to switch back to `white` mode though:
 
 * The best way to switch to `color` mode is to simply select a color which then automatically switches to `color` mode.
 * Manually selecting `color` mode may not switch back to last selected color.
@@ -48,4 +48,4 @@ to be used by the device, so only 9 options are shown.
 
 ##### Attributions
 * supermarket icon by Bernar  Novalyi from the Noun Project
-* Christmas tree by Stanislav Levin from the Noun Project
+* Christmas tree icon by Stanislav Levin from the Noun Project
