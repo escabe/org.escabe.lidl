@@ -29,6 +29,8 @@ class MyZigBeeDevice extends ZigBeeDevice {
                     return this.setColor({});
                 case 'white':
                 default:
+                    // Update light_saturation such that color in App is white
+                    await this.setCapabilityValue('light_saturation',0);
                     return this.setWhiteDim({});
             }
         });
