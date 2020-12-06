@@ -14,6 +14,9 @@
       "1": {
         "clusters": [6,61184]
       }
+    },
+    "learnmode": {
+      "instruction": {"en":"Hold the F button on the controller for 5 seconds and let go, light should start flashing slowly and pair with Homey."}
     }
   },
   "images": {

@@ -20,6 +20,11 @@
   },
   "author": {
     "name": "Martijn Aben",
-    "email": "martijn.aben@gmail.com"
-  }
+    "email": "lidl@escabe.org"
+  },
+  "bugs": {
+    "url": "https://github.com/escabe/org.escabe.lidl/issues"
+  },
+  "homepage": "https://github.com/escabe/org.escabe.lidl",
+  "source": "https://github.com/escabe/org.escabe.lidl"
 } 

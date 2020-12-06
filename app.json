@@ -21,8 +21,13 @@
   },
   "author": {
     "name": "Martijn Aben",
-    "email": "martijn.aben@gmail.com"
+    "email": "lidl@escabe.org"
   },
+  "bugs": {
+    "url": "https://github.com/escabe/org.escabe.lidl/issues"
+  },
+  "homepage": "https://github.com/escabe/org.escabe.lidl",
+  "source": "https://github.com/escabe/org.escabe.lidl",
   "flow": {
     "actions": [
       {
@@ -217,6 +222,11 @@
               6,
               61184
             ]
+          }
+        },
+        "learnmode": {
+          "instruction": {
+            "en": "Hold the F button on the controller for 5 seconds and let go, light should start flashing slowly and pair with Homey."
           }
         }
       },

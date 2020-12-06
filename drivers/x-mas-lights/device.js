@@ -3,7 +3,8 @@
 const { ZigBeeDevice } = require('homey-zigbeedriver');
 const { debug, CLUSTER, Cluster } = require('zigbee-clusters');
 const TuyaCluster = require('../../lib/TuyaCluster')
-debug(true);
+
+//debug(true);
 
 Cluster.addCluster(TuyaCluster);
 
@@ -28,10 +29,11 @@ class MyZigBeeDevice extends ZigBeeDevice {
                 case 'color':
                     return this.setColor({});
                 case 'white':
-                default:
                     // Update light_saturation such that color in App is white
                     await this.setCapabilityValue('light_saturation',0);
                     return this.setWhiteDim({});
+                case 'effect':
+                    return this.writeString(6,'0e32ff0000fe7023ffc836d4ff421efe4312d3fc004ef9e80ff9');
             }
         });
 
