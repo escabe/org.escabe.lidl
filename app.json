@@ -186,50 +186,6 @@
           {
             "type": "color",
             "name": "effect_color_8"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_9"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_10"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_11"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_12"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_13"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_14"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_15"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_16"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_17"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_18"
-          },
-          {
-            "type": "color",
-            "name": "effect_color_19"
           }
         ],
         "id": "start_effect"

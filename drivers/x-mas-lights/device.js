@@ -94,7 +94,7 @@ class MyZigBeeDevice extends ZigBeeDevice {
         const speed = String(args.effect_speed);
         if (speed.length == 1) es += '0';
         es += speed;
-        for (let i=0;i<20;i++) {
+        for (let i=0;i<9;i++) {
             const color = args['effect_color_' + i];
             if (color === '#fff') break;
             es += color.substr(1).toLowerCase();
