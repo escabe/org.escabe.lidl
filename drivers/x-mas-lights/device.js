@@ -2,8 +2,10 @@
 
 const { ZigBeeDevice } = require('homey-zigbeedriver');
 const { debug, CLUSTER, Cluster } = require('zigbee-clusters');
-
+const TuyaCluster = require('../../lib/TuyaCluster')
 debug(true);
+
+Cluster.addCluster(TuyaCluster);
 
 class MyZigBeeDevice extends ZigBeeDevice {
     zclNode;
