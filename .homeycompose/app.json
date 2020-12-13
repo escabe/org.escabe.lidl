@@ -1,14 +1,14 @@
 {
   "id": "org.escabe.lidl",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Lidl X-Mas Lights ZigBee"
+    "en": "Lidl ZigBee"
   },
   "brandColor": "#0000FF",
   "description": {
-    "en": "Adds support for the Lidl X-Mas Lights"
+    "en": "Adds support for Lidl ZigBee devices."
   },
   "category": [
     "lights"

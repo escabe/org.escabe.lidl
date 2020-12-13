@@ -4,7 +4,7 @@ This App is provided "as is", without warranty of any kind. I developed this ent
 
 Requires Homey version 5.
 
-Only supports the Melinera Smart LED String Lights sold by Lidl. Currently, no support is planned for other (Lidl) devices.
+Mainly supports the Melinera Smart LED String Lights sold by Lidl. Smart Window or Door Sensor was added as well. Currently, no support is planned for other (Lidl) devices.
 
 Other Lidl devices may be supported (in the future) by the Tuya Zigbee App.
 
@@ -36,4 +36,5 @@ Note: not all effects use all colors, some effect may only use one, two or three
 Attributions
 
 supermarket icon by Bernar Novalyi from the Noun Project
-Christmas tree by Stanislav Levin from the Noun Project
+Christmas tree icon by Stanislav Levin from the Noun Project
+Door with Window icon by Vectors Market from the Noun Project

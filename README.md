@@ -1,5 +1,5 @@
 # Lidl X-Mas Lights ZigBee
-Adds support for Lidl X-Mas Lights ZigBee.
+Adds support for selected Lidl Zigbee devices.
 
 ## Disclaimer
 This App is provided "as is", without warranty of any kind. I developed this entirely for own use and according to my
@@ -11,8 +11,8 @@ but I give no guarantees these will be granted or even considered.
 Requires Homey version 5.
 
 ## Supported devices
-Only supports the Melinera Smart LED String Lights sold by Lidl. Currently, **no** support is planned
-for other (Lidl) devices.
+Mainly supports the Melinera Smart LED String Lights sold by Lidl. "Smart Window or Door Sensor" was added as well. 
+Currently, **no** support is _planned_ for other (Lidl) devices.
 
 Other Lidl devices may be supported (in the future) by the Tuya Zigbee App:
 
@@ -52,6 +52,10 @@ set the speed and configure one or more colors.
 Note: not all effects use all colors, some effect may only use one, two or three colors. At maximum 9 colors appear
 to be used by the device, so only 9 options are shown.
 
+## Smart Window Or Door Sensor
+Works lke any other Window or Door Sensor. Pair and a contact and tamper alarm should show up.
+
 ##### Attributions
 * supermarket icon by Bernar  Novalyi from the Noun Project
 * Christmas tree icon by Stanislav Levin from the Noun Project
+* Door with Window icon by Vectors Market from the Noun Project

@@ -1,0 +1,34 @@
+{
+  "id": "smart-window-or-door-sensor",
+  "name": {
+    "en": "Smart Window or Door Sensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "alarm_contact",
+    "alarm_tamper"
+  ],
+  "energy": {
+    "batteries": ["AAA", "AAA"]
+  },
+  "zigbee": {
+    "manufacturerName": "_TZ1800_ejwkn2h2",
+    "productId": ["TY0203"],
+    "endpoints": {
+      "1": {
+        "clusters": [1,1280],
+        "bindings": [1,1280]
+      }
+    },
+    "learnmode": {
+      "instruction": {"en":"Push metal pin [5] into pin hole [9] for 5 s until green LED [2] flashes quickly.",
+      "image": "/drivers/smart-window-or-door-sensor/assets/learnmode.svg"
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/smart-window-or-door-sensor/assets/images/large.png",
+    "small": "/drivers/smart-window-or-door-sensor/assets/images/small.png"
+  }
+}
