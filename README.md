@@ -1,4 +1,4 @@
-# Lidl X-Mas Lights ZigBee
+# Lidl Zigbee Devices
 Adds support for selected Lidl Zigbee devices.
 
 ## Disclaimer
