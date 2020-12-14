@@ -11,7 +11,9 @@ but I give no guarantees these will be granted or even considered.
 Requires Homey version 5.
 
 ## Supported devices
-Mainly supports the Melinera Smart LED String Lights sold by Lidl. "Smart Window or Door Sensor" was added as well. 
+Mainly supports the Melinera Smart LED String Lights sold by Lidl. "Smart Window or Door Sensor" and "Smart Motion
+Sensor" were added as well. 
+
 Currently, **no** support is _planned_ for other (Lidl) devices.
 
 Other Lidl devices may be supported (in the future) by the Tuya Zigbee App:
@@ -55,7 +57,11 @@ to be used by the device, so only 9 options are shown.
 ## Smart Window Or Door Sensor
 Works lke any other Window or Door Sensor. Pair and a contact and tamper alarm should show up.
 
+## Smart Motion Sensor
+Works lke any other Motion Sensor. Pair and a notion alarm should show up.
+
 ##### Attributions
 * supermarket icon by Bernar  Novalyi from the Noun Project
 * Christmas tree icon by Stanislav Levin from the Noun Project
 * Door with Window icon by Vectors Market from the Noun Project
+* motion sensor icon by Arthur Shlain from the Noun Project

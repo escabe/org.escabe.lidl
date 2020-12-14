@@ -8,7 +8,7 @@ const TuyaCluster = require('../../lib/TuyaCluster')
 
 Cluster.addCluster(TuyaCluster);
 
-class MyZigBeeDevice extends ZigBeeDevice {
+class XMasLights extends ZigBeeDevice {
     zclNode;
 
     async onNodeInit({ zclNode }) {
@@ -179,4 +179,4 @@ class MyZigBeeDevice extends ZigBeeDevice {
 
 }
 
-module.exports = MyZigBeeDevice;
+module.exports = XMasLights;

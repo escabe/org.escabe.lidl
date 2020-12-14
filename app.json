@@ -199,6 +199,50 @@
   },
   "drivers": [
     {
+      "id": "smart-motion-sensor",
+      "name": {
+        "en": "Smart Motion Sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "measure_battery",
+        "alarm_motion"
+      ],
+      "images": {
+        "large": "/drivers/smart-motion-sensor/assets/images/large.png",
+        "small": "/drivers/smart-motion-sensor/assets/images/small.png"
+      },
+      "zigbee": {
+        "manufacturerName": "_TZ1800_fcdjzz3s",
+        "productId": [
+          "TY0202"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              1,
+              1280
+            ],
+            "bindings": [
+              1,
+              1280
+            ]
+          }
+        },
+        "energy": {
+          "batteries": [
+            "CR123A"
+          ]
+        },
+        "learnmode": {
+          "instruction": {
+            "image": "/drivers/smart-motion-sensor/assets/learnmode.svg",
+            "en": "Push metal pin [3] into pin hole [6] for 5 s until green LED [5] flashes quickly."
+          }
+        }
+      }
+    },
+    {
       "id": "smart-window-or-door-sensor",
       "name": {
         "en": "Smart Window or Door Sensor"

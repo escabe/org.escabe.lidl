@@ -5,7 +5,7 @@ const { CLUSTER,debug } = require('zigbee-clusters');
 
 debug(true);
 
-class SmartWindowOrDoorSensor extends ZigBeeDevice {
+class SmartMotionSensor extends ZigBeeDevice {
 
 	async onNodeInit({ zclNode }) {
 		this.log('MyZigBeeDevice has been inited');
@@ -27,8 +27,7 @@ class SmartWindowOrDoorSensor extends ZigBeeDevice {
 			}
 		]);
 		zclNode.endpoints[1].clusters.iasZone.on('attr.zoneStatus', (status) => {
-			this.setCapabilityValue('alarm_contact', status.alarm1);
-			this.setCapabilityValue('alarm_tamper', status.tamper);
+			this.setCapabilityValue('alarm_motion', status.alarm1);
 		});
 		zclNode.endpoints[1].clusters.powerConfiguration.on('attr.batteryPercentageRemaining', (status) => {
 			this.setCapabilityValue('measure_battery', status/2);
@@ -37,4 +36,4 @@ class SmartWindowOrDoorSensor extends ZigBeeDevice {
 
 }
 
-module.exports = SmartWindowOrDoorSensor;
+module.exports = SmartMotionSensor;
